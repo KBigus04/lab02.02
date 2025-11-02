@@ -10,7 +10,7 @@ using namespace std;
 	cout << "\nPodaj wartosc b: ";
 	cin >> b;
 	if (a == b) {
-		cout << "\nWartosci a i b musza byc od siebie ro¿ne!";
+		cout << "\nWartosci a i b musza byc od siebie roÂ¿ne!";
 	}
 	else if (a < b) {
 		for (int i = a; i <= b; i++) {
@@ -95,7 +95,7 @@ using namespace std;
 	}
 	else {
 		for (int i = 0; i < 10; i++) {
-			r = rand() % 11;
+			r = rand() % 10 + 1;
 			cout << r << ", ";
 			if (r == n) {
 				k++;
