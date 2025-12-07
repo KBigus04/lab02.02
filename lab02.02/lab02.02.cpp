@@ -80,7 +80,7 @@ using namespace std;
 	cout << "\nPodaj koncowa wartosc przedzialu (m): ";
 	cin >> m;
 	for (int i = 0; i < n; i++) {
-		r = rand() % m + 1;
+		r = rand() % (m + 1);
 		cout << r << endl;
 	}
 }*/
